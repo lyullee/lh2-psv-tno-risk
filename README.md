@@ -71,8 +71,8 @@ individual risk.
 
 ## Citation
 
-Use `CITATION.cff`. A version DOI will be added after the first Zenodo archive
-of the GitHub release.
+Use `CITATION.cff`. The archived software record is available at
+[https://doi.org/10.5281/zenodo.23105208](https://doi.org/10.5281/zenodo.23105208).
 
 ## Acknowledgement
 

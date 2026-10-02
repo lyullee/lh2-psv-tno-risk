@@ -9,6 +9,7 @@ authors:
     affiliation: "Korea Gas Safety Corporation"
 version: "0.1.0"
 date-released: 2026-10-02
+doi: "10.5281/zenodo.23105208"
 repository-code: "https://github.com/lyullee/lh2-psv-tno-risk"
 license: MIT
 keywords:

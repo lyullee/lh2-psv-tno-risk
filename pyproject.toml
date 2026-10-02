@@ -39,6 +39,7 @@ lh2-psv-tno-risk = "lh2_psv_tno_risk.cli:main"
 Homepage = "https://github.com/lyullee/lh2-psv-tno-risk"
 Repository = "https://github.com/lyullee/lh2-psv-tno-risk"
 Issues = "https://github.com/lyullee/lh2-psv-tno-risk/issues"
+DOI = "https://doi.org/10.5281/zenodo.23105208"
 
 [tool.setuptools.packages.find]
 where = ["src"]
