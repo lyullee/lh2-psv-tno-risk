@@ -74,7 +74,7 @@ individual risk.
 ## Citation
 
 Use `CITATION.cff`. The archived software record is available at
-[https://doi.org/10.5281/zenodo.23105208](https://doi.org/10.5281/zenodo.23105208).
+[https://doi.org/10.5281/zenodo.23105207](https://doi.org/10.5281/zenodo.23105207).
 
 ## Acknowledgement
 

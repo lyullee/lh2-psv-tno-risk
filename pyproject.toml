@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lh2-psv-tno-risk"
-version = "0.1.1"
+version = "0.1.2"
 description = "Research record and post-processing tools for LH2 tank, PSV, and TNO conditional-risk analysis"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -39,7 +39,7 @@ lh2-psv-tno-risk = "lh2_psv_tno_risk.cli:main"
 Homepage = "https://github.com/lyullee/lh2-psv-tno-risk"
 Repository = "https://github.com/lyullee/lh2-psv-tno-risk"
 Issues = "https://github.com/lyullee/lh2-psv-tno-risk/issues"
-DOI = "https://doi.org/10.5281/zenodo.23105208"
+DOI = "https://doi.org/10.5281/zenodo.23105207"
 PyPI = "https://pypi.org/project/lh2-psv-tno-risk/"
 
 [tool.setuptools.packages.find]

@@ -153,7 +153,7 @@ UA 0.6 W/K에서 6 mm와 18 mm PSV의 6시간 누적 방출량 차이는 4.5%였
 
 ## 코드 및 데이터 이용 가능성
 
-본 연구의 계산 결과, 그림 생성 코드와 후처리 패키지는 GitHub(https://github.com/lyullee/lh2-psv-tno-risk)에 공개하였다. 공개 릴리스의 장기 보존본은 Zenodo DOI(https://doi.org/10.5281/zenodo.23105208)에서 확인할 수 있다. Python 후처리 패키지는 PyPI(https://pypi.org/project/lh2-psv-tno-risk/)에 `lh2-psv-tno-risk` 버전 0.1.1로 배포하였다.
+본 연구의 계산 결과, 그림 생성 코드와 후처리 패키지는 GitHub(https://github.com/lyullee/lh2-psv-tno-risk)에 공개하였다. 공개 릴리스의 장기 보존본은 Zenodo 개념 DOI(https://doi.org/10.5281/zenodo.23105207)에서 확인할 수 있다. Python 후처리 패키지는 PyPI(https://pypi.org/project/lh2-psv-tno-risk/)에 `lh2-psv-tno-risk` 버전 0.1.2로 배포하였다.
 
 ## 감사의 글
 

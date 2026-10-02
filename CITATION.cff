@@ -7,9 +7,9 @@ authors:
     given-names: "Ugwiyeon"
     email: "lyullee@kgs.or.kr"
     affiliation: "Korea Gas Safety Corporation"
-version: "0.1.1"
+version: "0.1.2"
 date-released: 2026-10-03
-doi: "10.5281/zenodo.23105208"
+doi: "10.5281/zenodo.23105207"
 repository-code: "https://github.com/lyullee/lh2-psv-tno-risk"
 license: MIT
 keywords:
