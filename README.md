@@ -19,6 +19,8 @@ post-processing reference, not a design-certified PSV sizing tool.
 
 ## Install
 
+The published package is available from [PyPI](https://pypi.org/project/lh2-psv-tno-risk/).
+
 ```bash
 pip install lh2-psv-tno-risk
 ```

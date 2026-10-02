@@ -1,6 +1,8 @@
 {
   "title": "LH2-PSV-TNO conditional-risk research record",
   "upload_type": "software",
+  "version": "0.1.1",
+  "publication_date": "2026-10-03",
   "description": "Machine-readable results, figures, plotting scripts, and post-processing tools linking liquid-hydrogen tank self-pressurization, PSV release, vent thermal state, and TNO-aligned conditional-risk indicators.",
   "creators": [
     {
@@ -22,6 +24,11 @@
     {
       "identifier": "https://github.com/lyullee/lh2-psv-tno-risk",
       "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://pypi.org/project/lh2-psv-tno-risk/",
+      "relation": "isIdenticalTo",
       "scheme": "url"
     }
   ]

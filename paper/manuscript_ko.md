@@ -151,12 +151,16 @@ UA 0.6 W/K에서 6 mm와 18 mm PSV의 6시간 누적 방출량 차이는 4.5%였
 
 벤트 출구온도가 21.47 K에서 45.38 K로 올라가자 수소와 공기의 밀도비는 1.019에서 0.448로 낮아졌다. 이에 따라 TNO 모듈이 선택한 대기확산 경로는 밀도가스, 미지원 구간, 부력 제트 순으로 바뀌었다. 액화수소 저장설비의 조건부 위험도를 일관되게 비교하려면 탱크의 자기 가압, 감압 때의 플래시, 시간별 PSV 방출, 벤트 출구의 열적 상태를 하나의 계산 흐름으로 연결해야 한다.
 
+## 코드 및 데이터 이용 가능성
+
+본 연구의 계산 결과, 그림 생성 코드와 후처리 패키지는 GitHub(https://github.com/lyullee/lh2-psv-tno-risk)에 공개하였다. 공개 릴리스의 장기 보존본은 Zenodo DOI(https://doi.org/10.5281/zenodo.23105208)에서 확인할 수 있다. Python 후처리 패키지는 PyPI(https://pypi.org/project/lh2-psv-tno-risk/)에 `lh2-psv-tno-risk` 버전 0.1.1로 배포하였다.
+
 ## 감사의 글
 
 본 연구는 기후에너지환경부(MCEE)와 한국에너지기술평가원(KETEP)의 지원을 받아 수행한 연구과제입니다(No. RS-2025-02311196).
 
 ## 재현 자료
 
-탱크와 PSV 민감도 계산에는 calculate_center_lh2_sweep.py와 calculate_center_secondary_sweep.py를 사용하였다. 액화수소 제어체적의 온도, 질량, 평형 증기품질은 calculate_lh2_phase_dynamics.py로 계산하였다. 위험도와 벤트 출구상태는 calculate_vent_fire_risk_sensitivity.py, calculate_risk_model_matrix.py, calculate_vent_route_curves.py로 계산하였다. Figure 1, 2, 4, 5는 plot_parameter_comparisons.py로, Figure 3은 summarize_lh2_phase_dynamics.py로 다시 만들 수 있다. 입력값, 시간 이력, 요약 결과는 Center_LH2_Risk_Sweep_20260929와 LH2_Phase_Dynamics_20261002 폴더에 저장하였다.
+탱크와 PSV 민감도 계산에는 calculate_center_lh2_sweep.py와 calculate_center_secondary_sweep.py를 사용하였다. 액화수소 제어체적의 온도, 질량, 평형 증기품질은 calculate_lh2_phase_dynamics.py로 계산하였다. 위험도와 벤트 출구상태는 calculate_vent_fire_risk_sensitivity.py, calculate_risk_model_matrix.py, calculate_vent_route_curves.py로 계산하였다. Figure 1, 2, 4, 5는 plot_parameter_comparisons.py로, Figure 3은 summarize_lh2_phase_dynamics.py로 다시 만들 수 있다. 공개 저장소에는 본문에 사용한 입력값, 시간 이력, 요약 결과와 그림 생성 코드를 함께 수록하였다.
 
 [[REFERENCES]]
