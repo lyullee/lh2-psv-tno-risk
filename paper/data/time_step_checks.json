@@ -1,0 +1,156 @@
+[
+  {
+    "case": "UA0.6_D18_F0.6_P380_R360_dt10",
+    "ua_total_W_K": 0.6,
+    "bore_mm": 18.0,
+    "fill_fraction": 0.6,
+    "p_initial_kPa_abs": 380.0,
+    "p_set_kPa_abs": 390.0,
+    "p_reseat_kPa_abs": 360.0,
+    "duration_s": 21600.0,
+    "dt_s": 10.0,
+    "geometry_volume_m3": 56.33431090804264,
+    "initial_mass_kg": 2245.5076400953967,
+    "initial_heat_input_W": 160.47240140526023,
+    "status": "COMPLETED_HORIZON",
+    "runtime_s": 84.56242739999834,
+    "first_open_s": 19730.0,
+    "episode_count": 1,
+    "episodes": [
+      {
+        "start_s": 19730.0,
+        "end_s": 19880.0,
+        "duration_s": 150.0,
+        "mass_kg": 24.673003865003864,
+        "peak_kg_s": 0.17856294787957852
+      }
+    ],
+    "last_episode_censored": false,
+    "total_active_s": 150.0,
+    "max_pressure_kPa_abs": 389.99720654775524,
+    "end_pressure_kPa_abs": 361.4004480296546,
+    "peak_rate_kg_s": 0.17856294787957852,
+    "released_kg": 24.673003865003864,
+    "max_mass_residual_kg": 4.547473508864641e-12,
+    "max_energy_residual_J": 3.19676473736763e-07
+  },
+  {
+    "case": "UA0.6_D18_F0.6_P380_R360_dt40",
+    "ua_total_W_K": 0.6,
+    "bore_mm": 18.0,
+    "fill_fraction": 0.6,
+    "p_initial_kPa_abs": 380.0,
+    "p_set_kPa_abs": 390.0,
+    "p_reseat_kPa_abs": 360.0,
+    "duration_s": 21600.0,
+    "dt_s": 40.0,
+    "geometry_volume_m3": 56.33431090804264,
+    "initial_mass_kg": 2245.5076400953967,
+    "initial_heat_input_W": 160.47240140526023,
+    "status": "COMPLETED_HORIZON",
+    "runtime_s": 23.341991100000087,
+    "first_open_s": 19720.0,
+    "episode_count": 1,
+    "episodes": [
+      {
+        "start_s": 19720.0,
+        "end_s": 19880.0,
+        "duration_s": 160.0,
+        "mass_kg": 25.856197338254322,
+        "peak_kg_s": 0.17670978754428654
+      }
+    ],
+    "last_episode_censored": false,
+    "total_active_s": 160.0,
+    "max_pressure_kPa_abs": 389.99115969519227,
+    "end_pressure_kPa_abs": 360.3632460983466,
+    "peak_rate_kg_s": 0.17670978754428654,
+    "released_kg": 25.856197338254322,
+    "max_mass_residual_kg": 4.092726157978177e-12,
+    "max_energy_residual_J": 1.862645149230957e-07
+  },
+  {
+    "case": "UA6_D6_F0.6_P380_R360_dt10",
+    "ua_total_W_K": 6.0,
+    "bore_mm": 6.0,
+    "fill_fraction": 0.6,
+    "p_initial_kPa_abs": 380.0,
+    "p_set_kPa_abs": 390.0,
+    "p_reseat_kPa_abs": 360.0,
+    "duration_s": 21600.0,
+    "dt_s": 10.0,
+    "geometry_volume_m3": 56.33431090804264,
+    "initial_mass_kg": 2245.5076400953967,
+    "initial_heat_input_W": 1604.7240140526023,
+    "status": "COMPLETED_HORIZON",
+    "runtime_s": 91.76858940000056,
+    "first_open_s": 4240.0,
+    "episode_count": 2,
+    "episodes": [
+      {
+        "start_s": 4240.0,
+        "end_s": 5610.0,
+        "duration_s": 1370.0,
+        "mass_kg": 26.44009452935396,
+        "peak_kg_s": 0.020175634285707834
+      },
+      {
+        "start_s": 16310.0,
+        "end_s": 17910.0,
+        "duration_s": 1600.0,
+        "mass_kg": 30.916064209758208,
+        "peak_kg_s": 0.019932407143176078
+      }
+    ],
+    "last_episode_censored": false,
+    "total_active_s": 2970.0,
+    "max_pressure_kPa_abs": 389.97491815734594,
+    "end_pressure_kPa_abs": 373.68784757985253,
+    "peak_rate_kg_s": 0.020175634285707834,
+    "released_kg": 57.35615873911217,
+    "max_mass_residual_kg": 3.183231456205249e-12,
+    "max_energy_residual_J": 3.91155481338501e-07
+  },
+  {
+    "case": "UA6_D6_F0.6_P380_R360_dt40",
+    "ua_total_W_K": 6.0,
+    "bore_mm": 6.0,
+    "fill_fraction": 0.6,
+    "p_initial_kPa_abs": 380.0,
+    "p_set_kPa_abs": 390.0,
+    "p_reseat_kPa_abs": 360.0,
+    "duration_s": 21600.0,
+    "dt_s": 40.0,
+    "geometry_volume_m3": 56.33431090804264,
+    "initial_mass_kg": 2245.5076400953967,
+    "initial_heat_input_W": 1604.7240140526023,
+    "status": "COMPLETED_HORIZON",
+    "runtime_s": 25.371088599998984,
+    "first_open_s": 4240.0,
+    "episode_count": 2,
+    "episodes": [
+      {
+        "start_s": 4240.0,
+        "end_s": 5640.0,
+        "duration_s": 1400.0,
+        "mass_kg": 26.568484834274344,
+        "peak_kg_s": 0.019913267693330565
+      },
+      {
+        "start_s": 16320.0,
+        "end_s": 17960.0,
+        "duration_s": 1640.0,
+        "mass_kg": 31.108045378450036,
+        "peak_kg_s": 0.01991032953767453
+      }
+    ],
+    "last_episode_censored": false,
+    "total_active_s": 3040.0,
+    "max_pressure_kPa_abs": 389.97298905382604,
+    "end_pressure_kPa_abs": 373.3270476297462,
+    "peak_rate_kg_s": 0.019913267693330565,
+    "released_kg": 57.67653021272438,
+    "max_mass_residual_kg": 4.135358722123783e-12,
+    "max_energy_residual_J": 3.3015385270118713e-07
+  }
+]

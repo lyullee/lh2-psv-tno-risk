@@ -1,0 +1,28 @@
+{
+  "title": "LH2-PSV-TNO conditional-risk research record",
+  "upload_type": "software",
+  "description": "Machine-readable results, figures, plotting scripts, and post-processing tools linking liquid-hydrogen tank self-pressurization, PSV release, vent thermal state, and TNO-aligned conditional-risk indicators.",
+  "creators": [
+    {
+      "name": "Lee, Ugwiyeon",
+      "affiliation": "Korea Gas Safety Corporation"
+    }
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "liquid hydrogen",
+    "pressure safety valve",
+    "conditional risk",
+    "TNO",
+    "self-pressurization",
+    "digital twin"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/lyullee/lh2-psv-tno-risk",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

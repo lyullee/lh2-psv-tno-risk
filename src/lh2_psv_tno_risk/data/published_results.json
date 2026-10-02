@@ -1,0 +1,50 @@
+{
+  "record_version": "0.1.0",
+  "analysis_date": "2026-10-02",
+  "headline": {
+    "tank_volume_m3": 56.3343,
+    "initial_pressure_kPa_abs": 380.0,
+    "initial_temperature_K": 25.696,
+    "psv_set_pressure_kPa_abs": 390.0,
+    "psv_reseat_pressure_kPa_abs": 360.0,
+    "first_lift_h_by_tank_UA_W_K": {
+      "0.6": 5.478,
+      "2.0": 2.289,
+      "6.0": 1.178
+    },
+    "upper_vapor_temperature_rise_K": [0.439, 0.447],
+    "lower_liquid_temperature_rise_K": [0.036, 0.046],
+    "maximum_equilibrium_vapor_quality_fraction": [0.0124, 0.0277],
+    "flash_equivalent_mass_kg": [18.81, 59.23],
+    "six_hour_released_mass_kg": [21.79, 57.29]
+  },
+  "ua_0_6_bore_comparison": {
+    "6_mm": {
+      "released_mass_kg": 25.83,
+      "peak_release_rate_kg_s": 0.02014,
+      "delichatsios_area_given_fire_m2": 0.260,
+      "hyram_direct_ignition_probability": 0.008,
+      "conditional_risk_area_m2": 0.00208
+    },
+    "18_mm": {
+      "released_mass_kg": 24.68,
+      "peak_release_rate_kg_s": 0.17876,
+      "delichatsios_area_given_fire_m2": 2.320,
+      "hyram_direct_ignition_probability": 0.053,
+      "conditional_risk_area_m2": 0.12297
+    }
+  },
+  "vent_route_endpoints": {
+    "cold": {
+      "temperature_K": 21.47,
+      "hydrogen_to_air_density_ratio": 1.019,
+      "route": "dense_gas"
+    },
+    "warmed": {
+      "temperature_K": 45.38,
+      "hydrogen_to_air_density_ratio": 0.448,
+      "route": "buoyant_jet"
+    }
+  },
+  "scope": "Conditional comparison only; annual event frequency, weather frequency, and occupancy are excluded."
+}

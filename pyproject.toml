@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lh2-psv-tno-risk"
+version = "0.1.0"
+description = "Research record and post-processing tools for LH2 tank, PSV, and TNO conditional-risk analysis"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "Ugwiyeon Lee", email = "lyullee@kgs.or.kr"}]
+keywords = [
+  "liquid hydrogen", "pressure safety valve", "TNO", "conditional risk",
+  "self-pressurization", "cryogenic safety", "digital twin",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = []
+
+[project.optional-dependencies]
+figures = ["matplotlib>=3.7", "numpy>=1.24"]
+test = ["pytest>=7"]
+
+[project.scripts]
+lh2-psv-tno-risk = "lh2_psv_tno_risk.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/lyullee/lh2-psv-tno-risk"
+Repository = "https://github.com/lyullee/lh2-psv-tno-risk"
+Issues = "https://github.com/lyullee/lh2-psv-tno-risk/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+lh2_psv_tno_risk = ["data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

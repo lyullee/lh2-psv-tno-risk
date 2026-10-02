@@ -1,0 +1,43 @@
+{
+  "case": "UA6_D18_F0.6_P380_R360_dt10",
+  "ua_total_W_K": 6.0,
+  "bore_mm": 18.0,
+  "fill_fraction": 0.6,
+  "p_initial_kPa_abs": 380.0,
+  "p_set_kPa_abs": 390.0,
+  "p_reseat_kPa_abs": 360.0,
+  "discharge_coefficient": 0.8,
+  "duration_s": 21600.0,
+  "dt_s": 10.0,
+  "geometry_volume_m3": 56.33431090804264,
+  "initial_mass_kg": 2245.5076400953967,
+  "initial_heat_input_W": 1604.7240140526023,
+  "status": "COMPLETED_HORIZON",
+  "runtime_s": 77.83592920000046,
+  "first_open_s": 4240.0,
+  "episode_count": 2,
+  "episodes": [
+    {
+      "start_s": 4240.0,
+      "end_s": 4390.0,
+      "duration_s": 150.0,
+      "mass_kg": 24.62682384641753,
+      "peak_kg_s": 0.17904753888175337
+    },
+    {
+      "start_s": 15750.0,
+      "end_s": 15910.0,
+      "duration_s": 160.0,
+      "mass_kg": 26.262760778337004,
+      "peak_kg_s": 0.17888731994618184
+    }
+  ],
+  "last_episode_censored": false,
+  "total_active_s": 310.0,
+  "max_pressure_kPa_abs": 389.9795389459755,
+  "end_pressure_kPa_abs": 381.4624832733121,
+  "peak_rate_kg_s": 0.17904753888175337,
+  "released_kg": 50.889584624754534,
+  "max_mass_residual_kg": 4.419575816427823e-12,
+  "max_energy_residual_J": 3.296881914138794e-07
+}
